@@ -4,19 +4,27 @@ $third-color: #AFD3E2;
 $fourth-color: #19A7CE;
 body{
     background: $primary-color;
+
+}
+
+.header{
+    button{
+        border-style: hidden;
+        border-radius: 50%;
+    }
+    input{
+        border-style: hidden;
+    }
+    p{
+        color: #F6F1F1;
+        display: none;
+    }
 }
 
 .display{
     text-align: center;
     margin: 10px 20px 20px 20px;
     font-size: x-large;
-    button{
-        border-style: hidden;
-        border-radius: 100%;
-    }
-    input{
-        border-style: hidden;
-    }
 }
 
 .weather{
@@ -28,6 +36,7 @@ body{
         font-size: 60px;
     }
     color: $secondary-color;
+    display: none;
 }
 
 .weather .details{

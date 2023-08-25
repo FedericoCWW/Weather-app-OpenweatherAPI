@@ -2,21 +2,27 @@ body {
   background: #146C94;
 }
 
+.header button {
+  border-style: hidden;
+  border-radius: 50%;
+}
+.header input {
+  border-style: hidden;
+}
+.header p {
+  color: #F6F1F1;
+  display: none;
+}
+
 .display {
   text-align: center;
   margin: 10px 20px 20px 20px;
   font-size: x-large;
 }
-.display button {
-  border-style: hidden;
-  border-radius: 100%;
-}
-.display input {
-  border-style: hidden;
-}
 
 .weather {
   color: #F6F1F1;
+  display: none;
 }
 .weather i {
   font-size: 150px;
