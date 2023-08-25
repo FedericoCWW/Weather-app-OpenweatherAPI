@@ -1,0 +1,54 @@
+$primary-color: #146C94;
+$secondary-color: #F6F1F1;
+$third-color: #AFD3E2;
+$fourth-color: #19A7CE;
+body{
+    background: $primary-color;
+}
+
+.display{
+    text-align: center;
+    margin: 10px 20px 20px 20px;
+    font-size: x-large;
+    button{
+        border-style: hidden;
+        border-radius: 100%;
+    }
+    input{
+        border-style: hidden;
+    }
+}
+
+.weather{
+    i{
+        font-size: 150px;
+    }
+    h1{
+        font-weight: 500;
+        font-size: 60px;
+    }
+    color: $secondary-color;
+}
+
+.weather .details{
+    i{
+        font-size: 60px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 20px;
+    p{
+        font-size: larger;
+        font-weight: 600;
+    }
+}
+
+.col{
+    align-items: center;
+}
+
+h2{
+    font-size: 50px;
+}
