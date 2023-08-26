@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 body {
-  background: #146C94;
+  background-color: #146C94;
+  font-family: "Rubik", sans-serif;
 }
 
 .header button {
@@ -22,7 +24,6 @@ body {
 
 .weather {
   color: #F6F1F1;
-  display: none;
 }
 .weather i {
   font-size: 150px;
@@ -31,18 +32,23 @@ body {
   font-weight: 500;
   font-size: 60px;
 }
+.weather p {
+  font-size: 35px;
+  margin: -16px 0 0 0;
+}
 
 .weather .details {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 0 20px;
 }
 .weather .details i {
   font-size: 60px;
 }
 .weather .details p {
+  margin-top: auto;
   font-size: larger;
   font-weight: 600;
 }

@@ -2,9 +2,11 @@ $primary-color: #146C94;
 $secondary-color: #F6F1F1;
 $third-color: #AFD3E2;
 $fourth-color: #19A7CE;
-body{
-    background: $primary-color;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+body{
+    background-color: #146C94;
+    font-family: 'Rubik', sans-serif;
 }
 
 .header{
@@ -36,7 +38,11 @@ body{
         font-size: 60px;
     }
     color: $secondary-color;
-    display: none;
+    p{
+        font-size: 35px;
+        margin: -16px 0 0 0;
+    }
+    //display: none;
 }
 
 .weather .details{
@@ -46,9 +52,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 0 20px;
     p{
+        margin-top: auto;
         font-size: larger;
         font-weight: 600;
     }
